@@ -5,7 +5,7 @@ let classifier;
 let img;
 
 function preload() {
-  classifier = ml5.imageClassifier('model/model.json');
+  classifier = ml5.imageClassifier('MobileNet');
   img = loadImage('images/burger.jpg');
 }
 
